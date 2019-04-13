@@ -12,7 +12,7 @@ $ docker build -t "oracle-pdo-api" .
 Once you have your container image, you are ready to launch the container:
 
 ```sh
-$ sudo docker run --rm -d -p 9020:80 oracle-pdo-api
+$ docker run --rm -d -p 9020:80 oracle-pdo-api
 ```
 
 Finally, point your browser to the [API url](http://localhost:9020/api/v1/items/player/1). Make the necessary changes (host, port, url, ... ) to fit your particular environment properties.
